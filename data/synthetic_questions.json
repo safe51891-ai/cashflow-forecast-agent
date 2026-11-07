@@ -1,0 +1,12 @@
+[
+  {"id": "CQ-01", "question": "What is the cash balance over the next 6 months?", "expect": {"months": 6, "change_pct": 0.0}},
+  {"id": "CQ-02", "question": "What if net cash flow drops by 15% for the next 12 months?", "expect": {"months": 12, "change_pct": -15.0}},
+  {"id": "CQ-03", "question": "Scenario: collections fall 10% over 3 months. What is the lowest balance?", "expect": {"months": 3, "change_pct": -10.0}},
+  {"id": "CQ-04", "question": "Forecast with cash flow rising 5% for 9 months", "expect": {"months": 9, "change_pct": 5.0}},
+  {"id": "CQ-05", "question": "What is our treasury runway if expenses increase by 20% in the next 6 months?", "expect": "refuse"},
+  {"id": "CQ-06", "question": "Cash forecast, no change, 24 months", "expect": {"months": 24, "change_pct": 0.0}},
+  {"id": "CQ-07", "question": "What if cash flow declines 7.5% next 4 months?", "expect": {"months": 4, "change_pct": -7.5}},
+  {"id": "CQ-08", "question": "What is the cash balance if sales decline?", "expect": "refuse"},
+  {"id": "CQ-09", "question": "Should we hire another engineer?", "expect": "refuse"},
+  {"id": "CQ-10", "question": "What is the cash forecast for 40 months?", "expect": "refuse"}
+]
